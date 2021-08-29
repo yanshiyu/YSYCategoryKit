@@ -1,9 +1,10 @@
+source 'https://github.com/yanshiyu/MySpecs.git'
 use_frameworks!
 
 platform :ios, '9.0'
 
 target 'YSYCategoryKit_Example' do
-  pod 'YSYCategoryKit', :path => '../'
+  pod 'YSYCategoryKit'
 
   target 'YSYCategoryKit_Tests' do
     inherit! :search_paths
